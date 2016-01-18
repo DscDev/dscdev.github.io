@@ -154,3 +154,10 @@ body {
 
 
 /*# sourceMappingURL=main.css.map */
+
+footer{
+    text-align: right;
+    background: #CCC;
+    padding: 5px;
+    color: #FFF;
+}
