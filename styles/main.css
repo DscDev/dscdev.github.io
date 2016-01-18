@@ -1,67 +1,156 @@
 body {
-  font-family: Quicksand; }
+    font-family: Quicksand;
+}
 
-.header {
-  width: 100%;
-  position: fixed;
-  height: 90px;
-  padding: 15px 0;
-  background: #2196F3;
-  color: #FFF; }
-  .header__brand {
+.header_max {
+    width: 100%;
+    position: fixed;
+    height: 90px;
+    padding: 15px 0;
+    background: #2196F3;
+    color: #FFF;
+}
+
+.header_max .brand {
     letter-spacing: -2px;
     position: absolute;
-    border: 3px solid #FFF;
+    border: 2px solid #FFF;
     border-radius: 50%;
     padding: 10px;
     margin-left: 50px;
     font-size: 25px;
     font-family: Rock Salt;
     display: inline-block;
-    transition: 0.5s all ease;
-    cursor: pointer; }
-    .header__brand:hover {
-      transform: scale(1.2);
-      text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); }
-    .header__brand--one {
-      transition: 0.5s all ease; }
-    .header__brand:hover .header__brand--one {
-      transform: rotate(-360deg); }
-    .header__brand--two {
-      transition: 0.5s all ease;
-      width: 105px;
-      position: absolute;
-      display: block;
-      font-size: 11px;
-      margin-top: -13px;
-      margin-left: -19px; }
-    .header__brand:hover .header__brand--two {
-      /*nothing */ }
-  .header__nav {
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+.header_max .brand:hover {
+    transform: scale(1.2);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.header_max .brand .two {
+    transition: 0.3s all ease;
+    width: 105px;
+    position: absolute;
+    display: block;
+    font-size: 11px;
+    margin-top: -13px;
+    margin-left: -19px;
+}
+
+.header_max .brand:hover .two {
+    /*nothing */
+}
+
+.header_max .brand .one {
+    transition: 0.3s all ease;
+    position: relative;
+}
+
+.header_max .brand:hover .one {
+    transform: rotate(-360deg);
+}
+
+.header_max .nav {
     position: absolute;
     right: 50px;
-    /*float:right */
-    display: inline-block; }
-    .header__nav__item {
-      list-style: none;
-      display: inline-block; }
-      .header__nav__item__link {
-        display: block;
-        padding: 20px;
-        text-decoration: none;
-        color: #FFF;
-        transition: 1s all ease; }
-        .header__nav__item__link:hover {
-          background: #1E88E5; }
+    display: inline-block;
+}
 
-.body__main__section {
-  height: 686px;
-  background: url("../assets/images/ACC.jpg") no-repeat 100%; }
+.header_max .nav .item {
+    list-style: none;
+    display: inline-block;
+}
 
-.body__main__article {
-  text-align: justify;
-  padding: 100px;
-  font-size: 24px; }
+.header_max .nav .item .link {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #FFF;
+    transition: 0.3s all ease;
+}
+
+.header_max .nav .item .link:hover {
+    background: #1E88E5;
+}
+
+
+/*HEADER MINI*/
+
+.header_min {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    /*padding: 15px 0;*/
+    background: #2196F3;
+    color: #FFF;
+}
+
+.header_min .brand {
+    margin-top: 2px;
+    letter-spacing: -2px;
+    position: absolute;
+    border-radius: 50%;
+/*    border-left:1px solid #FFF;
+    border-right:1px solid #FFF;*/
+    padding: 7px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: Rock Salt;
+    display: inline-block;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+
+.header_min .brand .two {
+    display: none;
+}
+
+.header_min .brand .one {
+    position: relative;
+}
+
+.header_min .nav {
+    font-size: 12px;
+    position: absolute;
+    right: 50px;
+    display: inline-block;
+}
+
+.header_min .nav .item {
+    list-style: none;
+    display: inline-block;
+}
+
+.header_min .nav .item .link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #FFF;
+    transition: 0.3s all ease;
+}
+
+.header_min .nav .item .link:hover {
+    background: #1E88E5;
+}
+
+
+/*HEADER MINI*/
+
+.body .main .section {
+    height: 686px;
+    background: url("../assets/images/ACC.jpg") no-repeat 100%;
+}
+
+.body .main .article {
+    text-align: justify;
+    padding: 100px;
+    font-size: 24px;
+}
+
 
 /*# sourceMappingURL=main.css.map */
