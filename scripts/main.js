@@ -1,11 +1,19 @@
+$(function() {
 
- window.addEventListener("scroll",changeHeader);
+  // $slides.style.height =  window.innerHeight + 'px';
+  //  $name.style.fontSize =  window.innerHeight / 15 + 'px';
+  $(".slide").css("height", window.innerHeight + 'px');
+  $(".name").css("fontSize", window.innerHeight / 15 + 'px');
+  $(".career").css("fontSize", window.innerHeight / 30 + 'px');
 
- function changeHeader(){
- 	var $header = document.getElementsByClassName("header")[0];
- 	if(window.scrollY === 0 ){
- 		$header.className ="header header_max";
- 	}else{
- 		$header.className ="header header_min";
- 	}
- }
+  window.onresize = function(event) {
+
+    $(".slide").css("height", window.innerHeight + 'px');
+    $(".name").css("fontSize", window.innerHeight / 15 + 'px');
+    $(".career").css("fontSize", window.innerHeight / 30 + 'px');
+
+    // $slides.style.height = window.innerHeight + 'px';
+    // $name.style.fontSize = window.innerHeight / 15 + 'px';
+  };
+
+});

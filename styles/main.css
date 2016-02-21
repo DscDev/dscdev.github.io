@@ -1,179 +1,184 @@
 body {
-    font-family: Quicksand;
+  font-family: 'QuickSand', sans-serif;
+}
+.first {
+  background: #0D47A1;
+  color: #FFF;
+
+}
+.first .introduce {
+  text-align: center;
+  font-family: 'Rock Salt', sans-serif;
+  position: relative;
+  top: 37%;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  /**/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /**/
 }
 
-.header_max {
-    width: 100%;
-    position: fixed;
-    height: 90px;
-    padding: 15px 0;
-    background: #2196F3;
-    color: #FFF;
+/*.first .nav {
+  position: fixed;
+  top: 25px;
+  left: 0px;
+  font-size: 16px;
+
 }
 
-.header_max .brand {
-    letter-spacing: -2px;
-    position: absolute;
-    border: 2px solid #FFF;
-    border-radius: 50%;
-    padding: 10px;
-    margin-left: 50px;
-    font-size: 25px;
-    font-family: Rock Salt;
-    display: inline-block;
-    transition: 0.3s all ease;
-    cursor: pointer;
-}
-
-.header_max .brand:hover {
-    transform: scale(1.2);
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-}
-
-.header_max .brand .two {
-    transition: 0.3s all ease;
-    width: 105px;
-    position: absolute;
-    display: block;
-    font-size: 11px;
-    margin-top: -13px;
-    margin-left: -19px;
-}
-
-.header_max .brand:hover .two {
-    /*nothing */
-}
-
-.header_max .brand .one {
-    transition: 0.3s all ease;
-    position: relative;
-}
-
-.header_max .brand:hover .one {
-    transform: rotate(-360deg);
-}
-
-.header_max .nav {
-    position: absolute;
-    right: 50px;
-    display: inline-block;
-}
-
-.header_max .nav .item {
-    list-style: none;
-    display: inline-block;
-}
-
-.header_max .nav .item .link {
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-    color: #FFF;
-    transition: 0.3s all ease;
-}
-
-.header_max .nav .item .link:hover {
-    background: #1E88E5;
+.first .nav a {
+  text-decoration: none;
+  padding: 15px;
+  color: #FFF;
+  display: block;
+  transition: 0.5s all ease;
+  letter-spacing: : 5px;
 }
 
 
-/*HEADER MINI*/
-
-.header_min {
-    width: 100%;
-    position: fixed;
-    height: 60px;
-    /*padding: 15px 0;*/
-    background: #2196F3;
-    color: #FFF;
+.first .nav a:hover {
+box-shadow:inset 125px 0px 0px  rgba(0,0,0,0.1);
 }
 
-.header_min .brand {
-    margin-top: 2px;
-    letter-spacing: -2px;
-    position: absolute;
-    border-radius: 50%;
-/*    border-left:1px solid #FFF;
-    border-right:1px solid #FFF;*/
-    padding: 7px;
-    margin-left: 50px;
-    font-size: 18px;
-    font-family: Rock Salt;
-    display: inline-block;
-    transition: 0.3s all ease;
-    cursor: pointer;
+.first .nav .active {
+box-shadow:inset 125px 0px 0px rgba(0,0,0,0.3);
+}*/
+
+
+.first .social {
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  font-size: 25px;
 }
 
-
-.header_min .brand .two {
-    display: none;
+.first .social a {
+  padding: 15px;
+  color: #FFF;
+}
+.first .social a:hover {
+  border-radius: 5px;
+  background: #FFF;
+}
+.facebook:hover i {
+  color: #3D5B99;
+}
+.linkedin:hover i {
+  color: #0075B2;
+}
+.youtube:hover i {
+  color: #E62117;
+}
+.twitter:hover i {
+  color: #1DA1F2;
 }
 
-.header_min .brand .one {
-    position: relative;
+/*SECOND*/
+.second .title{
+  font-family: 'Rock Salt', sans-serif;
+}
+.second .introduce {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 37%;
+  width: 50%;
+}
+.second .introduce .title{
+  font-size: 36px;
+  text-align: left;
+}
+.second .introduce .extract{
+  font-size: 24px;
+  text-align: justify;
 }
 
-.header_min .nav {
-    font-size: 12px;
-    position: absolute;
-    right: 50px;
-    display: inline-block;
+/*THRID*/
+.thrid .title{
+  font-family: 'Rock Salt', sans-serif;
+}
+.thrid .introduce {
+  margin: auto;
+  /*text-align: center;*/
+  position: relative;
+  top: 15%;
+  width: 50%;
+}
+.thrid .introduce .title{
+  font-size: 36px;
 }
 
-.header_min .nav .item {
-    list-style: none;
-    display: inline-block;
+.thrid .introduce .languages{
+  margin-top: 15px;
 }
 
-.header_min .nav .item .link {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #FFF;
-    transition: 0.3s all ease;
+.thrid .introduce .languages .medidas{
+  margin-bottom: 20px;
 }
 
-.header_min .nav .item .link:hover {
-    background: #1E88E5;
+.thrid .introduce .languages .medidas div{
+  display: inline-block;
+  margin-right: 80px;
 }
 
-
-/*HEADER MINI*/
-
-.body .main .section {
-    height: 686px;
-    background: url("../assets/images/ACC.jpg") no-repeat 100%;
+.thrid .introduce .languages .skill{
+  padding: 10px 10px;
+  box-shadow:inset 1px 0px 0px  rgba(0,0,0,0.1);
+  transition: 1s all ease;
+}
+.thrid .introduce .languages .skill_html:hover{
+  padding: 10px 10px;
+  box-shadow:inset 180px 0px 0px  rgba(0,0,0,0.1);
+}
+.thrid .introduce .languages .skill_css:hover{
+  padding: 10px 10px;
+  box-shadow:inset 180px 0px 0px  rgba(0,0,0,0.1);
+}
+.thrid .introduce .languages .skill_javascript:hover{
+  padding: 10px 10px;
+  box-shadow:inset 140px 0px 0px  rgba(0,0,0,0.1);
+}
+.thrid .introduce .languages .skill_java:hover{
+  padding: 10px 10px;
+  box-shadow:inset 150px 0px 0px  rgba(0,0,0,0.1);
+}
+.thrid .introduce .languages .skill_php:hover{
+  padding: 10px 10px;
+  box-shadow:inset 110px 0px 0px  rgba(0,0,0,0.1);
+}
+.thrid .introduce .languages .skill_node:hover{
+  padding: 10px 10px;
+  box-shadow:inset 90px 0px 0px  rgba(0,0,0,0.1);
+}
+.thrid .introduce .languages .skill_mysql:hover{
+  padding: 10px 10px;
+  box-shadow:inset 150px 0px 0px  rgba(0,0,0,0.1);
+}
+.thrid .introduce .languages .skill_jquery:hover{
+  padding: 10px 10px;
+  box-shadow:inset 140px 0px 0px  rgba(0,0,0,0.1);
+}
+.thrid .introduce .languages .skill_angular:hover{
+  padding: 10px 10px;
+  box-shadow:inset 140px 0px 0px  rgba(0,0,0,0.1);
+}
+.thrid .introduce .languages .skill_bootstrap:hover{
+  padding: 10px 10px;
+  box-shadow:inset 140px 0px 0px  rgba(0,0,0,0.1);
 }
 
-.body .main .article {
-    text-align: justify;
-    padding: 100px;
-    font-size: 24px;
-}
-
-
-/*# sourceMappingURL=main.css.map */
+/*footer*/
 
 footer{
-    text-align: right;
-    background: #CCC;
-    padding: 5px;
-    color: #FFF;
-}
-
-::-webkit-scrollbar
-{
-  width: 12px;  /* for vertical scrollbars */
-  height: 12px; /* for horizontal scrollbars */
-}
-
-::-webkit-scrollbar-track
-{
-  background: rgba(0, 0, 0, 0.1);
-}
-
-::-webkit-scrollbar-thumb
-{
-  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  padding: 3px 20px;
+  font-size: 14px;
+  bottom: 0;
+  text-align: right;
+  color:#FFF;
+  background:#2196F3;
 }
