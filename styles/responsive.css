@@ -1,0 +1,19 @@
+/*A partir de 480 px, para mobiles*/
+@media screen and (min-width: 480px){
+
+}
+
+/*Para tablets*/
+@media screen (min-width: 767px){
+
+}
+
+/*Pantallas de escritorio*/
+@media screen and (min-width: 950px){
+  .flipper{
+    display: inline-block;
+  }
+  .thrid .main_box .description{
+    /*font-size: 36px;*/
+  }
+}

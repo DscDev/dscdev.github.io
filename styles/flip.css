@@ -1,0 +1,47 @@
+.flipper, .front, .back {
+  width: 250px;
+  height: 250px;
+}
+.flipper {
+  margin:50px auto;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+  -o-perspective: 1000px;
+  perspective: 1000px;
+}
+.front {
+  backface-visibility: hidden;
+  position: absolute;
+  transition: 0.6s all ease;
+  background: #2196F3;
+}
+.back {
+  color: #FFF;
+  background: #2196F3;
+  backface-visibility: hidden;
+  position: absolute;
+  transform: rotateX(-180deg);
+  transition: 0.6s all ease;
+}
+.flipper:hover .front {
+  transform: rotateX(180deg);
+}
+.flipper:hover .back {
+  transform: rotateX(0deg);
+}
+
+/*  */
+
+.front, .back {
+  border: 2px solid  #FFF;
+  /*background: #EEE;*/
+  padding: 10px;
+  text-align: left;
+}
+.front img{
+  width: 100%;
+}
+.back {
+
+}

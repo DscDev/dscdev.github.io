@@ -1,61 +1,46 @@
+/* GENERAL */
+
 body {
   font-family: 'QuickSand', sans-serif;
+  background: #ECEFF1;
 }
-.first {
-  background: #0D47A1;
-  color: #FFF;
-
-}
-.first .introduce {
+.main_box {
   text-align: center;
-  font-family: 'Rock Salt', sans-serif;
+  margin: auto;
   position: relative;
-  top: 37%;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  /**/
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  /**/
+  top: 25%;
+  width: 70%;
+}
+.title {
+  font-family: 'Rock Salt', sans-serif;
 }
 
-/*.first .nav {
-  position: fixed;
-  top: 25px;
-  left: 0px;
-  font-size: 16px;
-
+.description{
+  margin-top: 10px;
 }
 
-.first .nav a {
-  text-decoration: none;
-  padding: 15px;
+/* FIRST */
+
+.first {
+  background: #3f51b5;
   color: #FFF;
-  display: block;
-  transition: 0.5s all ease;
-  letter-spacing: : 5px;
+}
+.first .main_box {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.first .description {
+  font-family: 'Rock Salt', sans-serif;
 }
 
-
-.first .nav a:hover {
-box-shadow:inset 125px 0px 0px  rgba(0,0,0,0.1);
-}
-
-.first .nav .active {
-box-shadow:inset 125px 0px 0px rgba(0,0,0,0.3);
-}*/
-
+/*SOCIAL NETWORKS*/
 
 .first .social {
-  position: absolute;
+  position: relative;
   top: 25px;
-  right: 50px;
+  text-align: center;
   font-size: 25px;
+  /*z-index: 11;*/
 }
-
 .first .social a {
   padding: 15px;
   color: #FFF;
@@ -78,107 +63,13 @@ box-shadow:inset 125px 0px 0px rgba(0,0,0,0.3);
 }
 
 /*SECOND*/
-.second .title{
-  font-family: 'Rock Salt', sans-serif;
-}
-.second .introduce {
-  margin: auto;
-  text-align: center;
-  position: relative;
-  top: 37%;
-  width: 50%;
-}
-.second .introduce .title{
-  font-size: 36px;
+
+.second .main_box .description {
   text-align: left;
-}
-.second .introduce .extract{
-  font-size: 24px;
-  text-align: justify;
 }
 
 /*THRID*/
-.thrid .title{
-  font-family: 'Rock Salt', sans-serif;
-}
-.thrid .introduce {
-  margin: auto;
-  /*text-align: center;*/
-  position: relative;
-  top: 15%;
-  width: 50%;
-}
-.thrid .introduce .title{
-  font-size: 36px;
-}
-
-.thrid .introduce .languages{
-  margin-top: 15px;
-}
-
-.thrid .introduce .languages .medidas{
-  margin-bottom: 20px;
-}
-
-.thrid .introduce .languages .medidas div{
-  display: inline-block;
-  margin-right: 80px;
-}
-
-.thrid .introduce .languages .skill{
-  padding: 10px 10px;
-  box-shadow:inset 1px 0px 0px  rgba(0,0,0,0.1);
-  transition: 1s all ease;
-}
-.thrid .introduce .languages .skill_html:hover{
-  padding: 10px 10px;
-  box-shadow:inset 180px 0px 0px  rgba(0,0,0,0.1);
-}
-.thrid .introduce .languages .skill_css:hover{
-  padding: 10px 10px;
-  box-shadow:inset 180px 0px 0px  rgba(0,0,0,0.1);
-}
-.thrid .introduce .languages .skill_javascript:hover{
-  padding: 10px 10px;
-  box-shadow:inset 140px 0px 0px  rgba(0,0,0,0.1);
-}
-.thrid .introduce .languages .skill_java:hover{
-  padding: 10px 10px;
-  box-shadow:inset 150px 0px 0px  rgba(0,0,0,0.1);
-}
-.thrid .introduce .languages .skill_php:hover{
-  padding: 10px 10px;
-  box-shadow:inset 110px 0px 0px  rgba(0,0,0,0.1);
-}
-.thrid .introduce .languages .skill_node:hover{
-  padding: 10px 10px;
-  box-shadow:inset 90px 0px 0px  rgba(0,0,0,0.1);
-}
-.thrid .introduce .languages .skill_mysql:hover{
-  padding: 10px 10px;
-  box-shadow:inset 150px 0px 0px  rgba(0,0,0,0.1);
-}
-.thrid .introduce .languages .skill_jquery:hover{
-  padding: 10px 10px;
-  box-shadow:inset 140px 0px 0px  rgba(0,0,0,0.1);
-}
-.thrid .introduce .languages .skill_angular:hover{
-  padding: 10px 10px;
-  box-shadow:inset 140px 0px 0px  rgba(0,0,0,0.1);
-}
-.thrid .introduce .languages .skill_bootstrap:hover{
-  padding: 10px 10px;
-  box-shadow:inset 140px 0px 0px  rgba(0,0,0,0.1);
-}
-
-/*footer*/
-
-footer{
-  position: relative;
-  padding: 3px 20px;
-  font-size: 14px;
-  bottom: 0;
-  text-align: right;
-  color:#FFF;
-  background:#2196F3;
+.third .main_box .description {
+  /*text-align: left;*/
+  /*font-size: 100px;*/
 }

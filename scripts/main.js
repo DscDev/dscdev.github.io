@@ -1,19 +1,17 @@
 $(function() {
 
-  // $slides.style.height =  window.innerHeight + 'px';
-  //  $name.style.fontSize =  window.innerHeight / 15 + 'px';
-  $(".slide").css("height", window.innerHeight + 'px');
-  $(".name").css("fontSize", window.innerHeight / 15 + 'px');
-  $(".career").css("fontSize", window.innerHeight / 30 + 'px');
+  changeSize();
 
   window.onresize = function(event) {
-
-    $(".slide").css("height", window.innerHeight + 'px');
-    $(".name").css("fontSize", window.innerHeight / 15 + 'px');
-    $(".career").css("fontSize", window.innerHeight / 30 + 'px');
-
-    // $slides.style.height = window.innerHeight + 'px';
-    // $name.style.fontSize = window.innerHeight / 15 + 'px';
+    changeSize();
   };
+
+  function changeSize() {
+
+    var screen = window.innerHeight;
+    $(".slide").css("height", screen + 'px');
+    $(".title").css("fontSize", screen / 15 + 'px');
+    $(".description").css("fontSize", screen / 30 + 'px');
+  }
 
 });
