@@ -8,7 +8,6 @@ body {
   text-align: center;
   margin: auto;
   position: relative;
-  top: 25%;
   width: 70%;
 }
 .title {
@@ -68,7 +67,7 @@ body {
   text-align: left;
 }
 
-/*THRID*/
+/*third*/
 .third .main_box .description {
   /*text-align: left;*/
   /*font-size: 100px;*/
