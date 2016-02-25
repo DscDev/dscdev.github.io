@@ -3,7 +3,7 @@
   height: 250px;
 }
 .flipper {
-  margin:50px auto;
+  margin: 50px auto;
   -webkit-perspective: 1000px;
   -moz-perspective: 1000px;
   -ms-perspective: 1000px;
@@ -34,14 +34,12 @@
 /*  */
 
 .front, .back {
-  border: 2px solid  #FFF;
+  border: 2px solid #FFF;
   /*background: #EEE;*/
   padding: 10px;
   text-align: left;
 }
-.front img{
+.front img {
   width: 100%;
 }
-.back {
-
-}
+.back {}

@@ -1,11 +1,9 @@
 /*A partir de 480 px, para mobiles*/
 
-@media screen and (min-width: 480px) {
-
+@media screen and (min-width: 0px) {
   .first .main_box, .second .main_box {
     top: 33%;
   }
-
 }
 
 /*Para tablets*/
@@ -25,14 +23,11 @@
   .first .main_box, .second .main_box {
     top: 32%;
   }
-
   .third .main_box {
     top: 18%;
   }
-
   .flipper {
     display: inline-block;
-      margin:50px 15px;
+    margin: 50px 15px;
   }
-
 }

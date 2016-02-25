@@ -13,8 +13,7 @@ body {
 .title {
   font-family: 'Rock Salt', sans-serif;
 }
-
-.description{
+.description {
   margin-top: 10px;
 }
 
@@ -68,6 +67,7 @@ body {
 }
 
 /*third*/
+
 .third .main_box .description {
   /*text-align: left;*/
   /*font-size: 100px;*/
