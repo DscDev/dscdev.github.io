@@ -3,6 +3,7 @@
   height: 250px;
 }
 .flipper {
+  cursor: pointer;
   margin: 50px auto;
   -webkit-perspective: 1000px;
   -moz-perspective: 1000px;
