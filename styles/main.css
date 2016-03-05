@@ -20,7 +20,8 @@ body {
 /* FIRST */
 
 .first {
-  background: #3f51b5;
+  /*background: #3f51b5;*/
+  background: url("../images/fondo.jpg") 100%;
   color: #FFF;
 }
 .first .main_box {
@@ -46,6 +47,9 @@ body {
 .first .social a:hover {
   border-radius: 5px;
   background: #FFF;
+}
+.github:hover i {
+  color: #000;
 }
 .facebook:hover i {
   color: #3D5B99;
