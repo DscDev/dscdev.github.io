@@ -1,84 +1,88 @@
-/* GENERAL */
 
-body {
-  font-family: 'QuickSand', sans-serif;
-  background: #ECEFF1;
+.slide {
+  height: 100vh;
+  /*border: 1px solid #888;*/
 }
-.main_box {
-  text-align: center;
-  margin: auto;
-  position: relative;
-  width: 70%;
-}
-
-.main_box .title, .main_box .description {
-  font-weight: normal;
-  margin: 0;
-}
-
-.title {
-  font-family: 'Rock Salt', sans-serif;
-}
-.description {
-  margin-top: 10px;
-}
-
-/* FIRST */
-
 .first {
-  /*background: #3f51b5;*/
   background: url("../images/fondo.jpg") 100%;
   color: #FFF;
-}
-.first .main_box {
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-.first .description {
-  font-family: 'Rock Salt', sans-serif;
-}
-
-/*SOCIAL NETWORKS*/
-
-.first .social {
+  font-family: "Rock Salt";
   position: relative;
-  top: 25px;
-  text-align: center;
-  font-size: 25px;
-  /*z-index: 11;*/
 }
-.first .social a {
-  padding: 15px;
+.social {
+  font-size: 24px;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  bottom: 0;
+}
+.social a {
   color: #FFF;
 }
-.first .social a:hover {
-  border-radius: 5px;
-  background: #FFF;
+.first .main-box {
+  transition: 2s all ease;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
-.github:hover i {
-  color: #000;
+.first .main-box .title {
+  font-size: 24px;
+  margin: 0;
+  font-weight: normal;
 }
-.facebook:hover i {
-  color: #3D5B99;
+.first .main-box .description {
+  font-size: 14px;
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: normal;
 }
-.linkedin:hover i {
-  color: #0075B2;
+.second{
+  background: #CFD8DC;
 }
-.youtube:hover i {
-  color: #E62117;
+.second .main-box {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
-.twitter:hover i {
-  color: #1DA1F2;
+.second .main-box .title {
+  font-family: "Rock Salt";
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+}
+.second .main-box .description {
+  font-family: "QuickSand";
+  text-align: justify;
+  padding: 10px 30px;
+  font-size: 14px;
+}
+.third{
+  /*position: relative;*/
+  background:#263238;
+  padding: 200px 0;
+}
+.third .main-box{
+  /*position: relative;*/
+}
+.third .main-box .title {
+  font-family: "Rock Salt";
+  text-align: center;
+  color: #FFF;
+  font-size: 24px;
+}
+.third .main-box .description {
+  font-family: "QuickSand";
+  /*margin: auto;*/
+  font-size: 24px;
 }
 
-/*SECOND*/
-
-.second .main_box .description {
-  text-align: left;
-}
-
-/*third*/
-
-.third .main_box .description {
-  /*text-align: left;*/
-  /*font-size: 100px;*/
+footer{
+  font-size: 12px;
+  font-family: "QuickSand";
+  background: #CFD8DC;
+  padding: 3px;
+  text-align: center;
 }

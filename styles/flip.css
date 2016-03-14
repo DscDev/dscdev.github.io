@@ -1,10 +1,14 @@
 .flipper, .front, .back {
-  width: 250px;
-  height: 250px;
+  max-width: 250px;
+  min-height: 210px;
+  padding: 10px;
+}
+.flipper:first-child{
+  margin-top: 15px;
 }
 .flipper {
-  cursor: pointer;
-  margin: 50px auto;
+  margin: 80px auto;
+  position: relative;
   -webkit-perspective: 1000px;
   -moz-perspective: 1000px;
   -ms-perspective: 1000px;
@@ -24,15 +28,13 @@
   transform: rotateX(0deg);
 }
 
-/*  */
-
 .front, .back {
-  border-radius: 10px;
+  border-radius: 20px;
   backface-visibility: hidden;
   background: #CFD8DC;
   border: 2px solid #FFF;
   color: #000;
-  padding: 10px;
+
   position: absolute;
   text-align: left;
   transition: 0.6s all ease;

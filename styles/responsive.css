@@ -1,33 +1,60 @@
-/*A partir de 480 px, para mobiles*/
-
-@media screen and (min-width: 0px) {
-  .first .main_box, .second .main_box {
-    top: 33%;
-  }
-}
 
 /*Para tablets*/
 
 @media screen and (min-width: 767px) {
-  .first .main_box, .second .main_box {
-    top: 33%;
+  .first .main-box {
+    letter-spacing: 0px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   }
-  .third .main_box {
-    top: 10%;
+
+  .first .main-box .title{
+    letter-spacing: 0px;
+    font-size: 51px;
   }
+  .first .main-box .description{
+    margin-top: -20px;
+    font-size: 29px;
+    letter-spacing: 0px;
+  }
+  .second .main-box .title{
+    font-size: 51px;
+  }
+  .second .main-box .description{
+    font-size: 25px;
+    width: 60%;
+    margin: auto;
+  }
+
+  .third .main-box .title{
+    font-size: 56px;
+  }
+
+  .flipper{
+    margin: 40px 103px;
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+  }
+
+  .social {
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transform: translateX(0);
+  }
+  .social a {
+    color: #000;
+    background: #FFF;
+    padding:0 15px;
+    border-radius: 50px;
+  }
+
+
 }
 
 /*Pantallas de escritorio*/
 
 @media screen and (min-width: 950px) {
-  .first .main_box, .second .main_box {
-    top: 32%;
-  }
-  .third .main_box {
-    top: 18%;
-  }
-  .flipper {
-    display: inline-block;
-    margin: 50px 15px;
-  }
+
 }
