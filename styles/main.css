@@ -121,22 +121,22 @@ body {
     text-align: center;
     font-size: 1em;
     /*    font-family: "Rock Salt";*/
-    /*    font-family: "Shadows Into Light";*/
-    /*    font-family: "Amatic SC";*/
+        /*font-family: "Shadows Into Light";*/
+        /*font-family: "Amatic SC";*/
     font-family: "Indie Flower";
     /*        font-family: "QuickSand";*/
 }
 
 .second .content {
-    font-size: 0.7em;
+    font-size: 0.6em;
     width: 70%;
     margin: auto;
     text-align: justify;
-    /*    font-family: "Rock Salt";*/
-    /*    font-family: "Shadows Into Light";*/
+        font-family: "Rock Salt";
+        font-family: "Shadows Into Light";
     font-family: "Amatic SC";
-    /*    font-family: "Indie Flower";*/
-    /*        font-family: "QuickSand";*/
+        font-family: "Indie Flower";
+            font-family: "QuickSand";
 }
 
 .third {
