@@ -10,15 +10,11 @@
     }
     .flipper {
         margin: 25px;
-    }
-    .flipper,
-    .front,
-    .back {
         width: 90%;
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:1300px) {
     .bars {
         display: inline;
     }
@@ -33,7 +29,8 @@
     }
 }
 
-@media screen and (min-width: 950px) {
+/*@media screen and (min-width: 950px) {*/
+@media screen and (min-width: 1316px) {
     .navegacion {
         display: block !important;
         display: flex !important;
