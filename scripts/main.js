@@ -39,4 +39,8 @@ $(function () {
         }
     }
 
+    window.sr = ScrollReveal();
+    sr.reveal('.flipper');
+
+
 });
