@@ -1,5 +1,7 @@
 @media screen and (max-width:480px) {
-
+    .social {
+        display: none;
+    }
     .navegacion {
         animation: animar-nav 0.5s 1;
     }
