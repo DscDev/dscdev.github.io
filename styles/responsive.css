@@ -1,4 +1,4 @@
-@media screen and (max-width:480px) and (orientation:landscape){
+@media screen and (max-width:480px) {
 
     .navegacion {
         animation: animar-nav 0.5s 1;
@@ -11,11 +11,11 @@
         width: 90%;
     }
 }
-/*@media screen and (max-width:635px){
+@media screen and (max-width:635px){
   .social {
       display: none;
   }
-}*/
+}
 @media screen and (max-width:1300px) {
     .bars {
         display: inline;
