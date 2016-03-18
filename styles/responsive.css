@@ -17,6 +17,13 @@
   .social {
       display: none;
   }
+  .first .main-box .title {
+      font-size: 1.2em;
+  }
+
+  .first .main-box .subtitle {
+      font-size: 0.2em;
+  }
 }
 @media screen and (max-width:1300px) {
     .bars {
